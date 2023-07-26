@@ -1,0 +1,38 @@
+#canvas {
+  /* make the canvas wrapper fits the document */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 15vh 50px;
+
+    h3 {
+      position: absolute;
+    }
+}
+
+.plane {
+  /* define the size of your plane */
+  width: 70%;
+  aspect-ratio: 4/4;
+
+  img {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "curtainjs-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-glsl": "^1.1.2",
+    "vite-plugin-glslify": "^2.0.2"
+  },
+  "dependencies": {
+    "curtainjs": "^1.0.2",
+    "curtainsjs": "^8.1.5",
+    "glslify": "^7.1.1"
+  }
+}
