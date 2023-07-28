@@ -20,10 +20,14 @@ uniform float uTime;
 void main(){
     vec3 vertexPosition=aVertexPosition;
 
+    // Displace X axis with sin
     vertexPosition.z += sin(vertexPosition.x * 3.141592 + uTime * 0.0375) * 0.05;
+    
+    // Displace Y axis with cos
     vertexPosition.z += cos(vertexPosition.y  + uTime * 0.0375) * 0.05;
     
     gl_Position=uPMatrix*uMVMatrix*vec4(vertexPosition,1.);
+    
     // set the varyings
     // here we use our texture matrix to calculate the accurate texture coords
     vTextureCoord=(uTextureMatrix0*vec4(aTextureCoord,0.,1.)).xy;
