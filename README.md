@@ -1,2 +1,2 @@
-# Simple Curtain.js boilerplate for testing shader effects on the plane
+# Simple Curtain.js Boilerplate for Testing Shader Effects on a Plane
  
