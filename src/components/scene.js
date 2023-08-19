@@ -17,8 +17,8 @@ export function Scene() {
         const params = {
             vertexShader: vertex, // our vertex shader ID
             fragmentShader: fragment, // our fragment shader ID
-            widthSegments: 16,
-            heightSegments: 16,
+            widthSegments: 32,
+            heightSegments: 32,
             uniforms: {
                 time: {
                     name: "uTime", // uniform name that will be passed to our shaders
